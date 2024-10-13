@@ -54,7 +54,7 @@
 
     <h1>Are you sure you want to delete this developer?</h1>
 
-    <!-- Display the dev info-->
+    <!-- display the dev info-->
     <div class="developerContainer">
         <p><strong>First Name:</strong> <?php echo htmlspecialchars($getDeveloperById['first_name']); ?></p>
         <p><strong>Last Name:</strong> <?php echo htmlspecialchars($getDeveloperById['last_name']); ?></p>
