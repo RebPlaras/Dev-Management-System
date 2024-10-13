@@ -9,7 +9,7 @@ function insertIntoDeveloperRecords($pdo, $first_name, $last_name, $gender, $dev
     $executeQuery = $stmt->execute([$first_name, $last_name, $gender, $dev_level, $team, $lang_specialty, $years_of_exp]);
 
     return $executeQuery;  
-
+}
 
 function seeRecords($pdo) {
 	$sql = "SELECT * FROM software_developers";
